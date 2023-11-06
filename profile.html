@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Linkedin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/linkedin.png" alt="logo"></a>
+
+        <div class="search-box">
+            <img src="images/search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="#" class="active-link"><img src="images/home (3).png" alt=""> <span>Home</span></a></li>
+            <li><a href="#"><img src="images/network.png" alt=""> <span>My Network</span></a></li>
+            <li><a href="#"><img src="images/job-seeker.png" alt=""> <span>Jobs</span></a></li>
+            <li><a href="#"><img src="images/message.png" alt=""> <span>Messaging</span></a></li>
+            <li><a href="#"><img src="images/Notification 1.png" alt=""> <span>Notifications</span></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="images/member-1-(15).jpg" alt="" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+    <!-- -------profile-drop-down-menu-------- -->
+    <div class="profile-menu-wrap" id="profileMemu">
+        <div class="profile-menu">
+            <div class="user-info">
+                <img src="images/photo2.jpg" alt="">
+                <div>
+                    <h3>Williams Ray</h3>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+
+            <hr>
+            <a href="#" class="profile-menu-link">
+                <img src="images/comment.png" alt="">
+                <p>Give Feedback</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/settings.png" alt="">
+                <p>Settings & Privacy</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/Help & Support.png" alt="">
+                <p>Help & Support</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/Display & Accessibility.png" alt="">
+                <p>Display & Accessibility</p>
+                <span>></span>
+            </a>
+            <a href="#" class="profile-menu-link">
+                <img src="images/logout.png" alt="">
+                <p>Logout</p>
+                <span>></span>
+            </a>
+        </div>
+    </div>
+
+
+
+</nav>
+
+<!-------------navbar close-------------->
+
+<div class="container">
+    <div class="profile-main">
+        <div class="profle-container">
+            <img src="images/cover.jpg" alt="" width="100%">
+            <div class="prpfile-container-inner">
+                <img src="images/user.png" alt="" class="profile-pic">
+                <h1>Williams Ray</h1>
+                <b>Web Developer at Google | Intern at Oracle</b>
+                <p>Google groups, Nigeria &middot; <a href="#">Contact info</a></p>
+                <div class="mutual-connection">
+                    <img src="images/photo1.jpg" alt="">
+                    <span>1 mutual connection: Stanley Evans</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="images/group.png.png" alt="">Connect</a>
+                    <a href="#"><img src="images/message.png" alt="">Message</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>The success of every website depends on search engine optimisation and digital marketing strategy.
+                If you are on first page of every major search engines then you are ahead among your competitos on first 
+                page of all major search engines then you are ahead among your competitors.</p>
+                <a href="#" class="See-more-link">See more...</a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Experience</h2>
+            <div class="profile-desc-row">
+                <img src="images/google.png" alt="">
+                <div>
+                    <h3>Lead Front-End Developer</h3>
+                    <b>Google Inc. Full-time</b>
+                    <b>Feb 2021 - Present &middot; 1.5 years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually
+                    by designing and building executable computer program.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/slack.png" alt="">
+                <div>
+                    <h3>Ful Stack Developer</h3>
+                    <b>Slack &middot; Full-time</b>
+                    <b>June 2018 - Jan 2021 &middot; 2.6 years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually
+                    by designing and building executable computer program.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/microsoft.png" alt="">
+                <div>
+                    <h3>Web Developer</h3>
+                    <b>Microsoft &middot; Full-time</b>
+                    <b>Sep 2015 - May 2018 &middot; 2.8 years</b>
+                    <p>Computer Programming is the process of performing a particular computation, usually
+                    by designing and building executable computer program.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="experience-link">show all 7 experiences <img src="images/right-arrow1.png" alt=""></a>
+        </div>
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src="images/stanford.jpeg" alt="">
+                <div>
+                    <h3>stanford Universty</h3>
+                    <b>BSEE, Electrical Engineering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/northwestern.jpeg" alt="">
+                <div>
+                    <h3>Northwestern Universty</h3>
+                    <b>Computer Science</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/Harvard.png" alt="">
+                <div>
+                    <h3>Harvard Universty</h3>
+                    <b>Senior High School</b>
+                    <b>2018 - 2022</b>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">Communication</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Planning</a>
+            <a href="#" class="skills-btn">Coding</a>
+            <a href="#" class="skills-btn">Javascript</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">Enterprenuorship</a>
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">German</a>
+        </div>
+
+
+    </div>
+<!-----------profile-right-sidebar----------->
+<div class="profile-sidebar"></div>
+    <div class="sidebar-ad">
+        <small>Ad &middot; &middot; &middot;</small>
+        <p>Master the 5 principle of web design</p>
+        <div>
+            <img src="images/member-1 (14).jpg" alt="">
+            <img src="images/facebook.png.png" alt="">
+        </div>
+        <b>Brand and demand in facebook</b>
+        <a href="#" class="Ad-link">Learn More</a>
+    </div>
+
+    <div class="sidebar-people">
+        <h3>People you may know</h3>
+    </div>
+</div>
+<script>
+    
+    let profileMemu = document.getElementById("profileMemu");
+
+    function toggleMenu(){
+        profileMemu.classList.toggle("open-menu");
+    }
+
+</script>
+
+</body>
+</html>
